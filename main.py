@@ -97,14 +97,13 @@ if __name__ == '__main__':
     print("Run time: ", time.time() - start)
 
     # plots
-    # agents = ['OptimisticDiscountedAgent', 'StochasticApproximationAgent']
-
     environments_name = ['JumpRiverSwimEnv']
-    agents = ['OptimisticDiscountedAgent']
 
+    agents = ['OptimisticDiscountedAgent']
     alg_storage = {'OptimisticDiscountedAgent': str(storage_counter)}
     legends = {'OptimisticDiscountedAgent': 'Optimistic Q-learning'}
 
+    # agents = ['OptimisticDiscountedAgent', 'StochasticApproximationAgent']
     # alg_storage = {'StochasticApproximationAgent': str(storage_counter)}
     # legends = {'StochasticApproximationAgent': 'Q-learning with $\epsilon$-greedy'}
                
@@ -112,11 +111,3 @@ if __name__ == '__main__':
 
     for env_name in environments_name:
         regret_plot(environment_name=env_name, agents=agents, alg_storage=alg_storage, legends=legends, save_directory=save_directory)
-
-
-
-
-
-
-
-
