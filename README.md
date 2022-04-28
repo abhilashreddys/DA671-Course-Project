@@ -1,6 +1,6 @@
 # DA671-Course-Project
 
-This repository contains codes for the Optimistic Q - Learning ALgorithm from paper titled _Model-free Reinforcement Learning in Infinite-horizon Average-reward Markov Decision Processes_ [here](https://arxiv.org/pdf/1910.07072.pdf).
+This repository contains codes for the Optimistic Q - Learning Algorithm from paper titled _Model-free Reinforcement Learning in Infinite-horizon Average-reward Markov Decision Processes_ [here](https://arxiv.org/pdf/1910.07072.pdf).
 
 This project is done by [Abhilash](https://github.com/abhilashreddys), [Rahul](https://github.com/chindimaga), [Bhavnick](https://github.com/Bhavnicksm)
 
